@@ -43,8 +43,6 @@ ul {
 
 ul a {
     color: white;
-    text-shadow: 0.075rem 0.075rem 0.1875rem #000000;
-
 }
 
 ul li {
@@ -120,12 +118,12 @@ ul li:hover {
 /* site start */
 
 .img1 {
-    background-image: url("./Logo.png");
-    margin-top: 1rem;
+    background-image: url("/placeholder.jpg");
+    margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
-    width: calc(15rem + 20vw);
-    height: calc(15rem + 20vw);
+    width: calc(10rem + 40vw);
+    height: calc(5rem + 20vw);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -137,7 +135,7 @@ ul li:hover {
     text-shadow: 0.075rem 0.075rem 0.1875rem black;
     position: relative;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-right: 1rem;
     margin-left: 1rem;
     color: white;
@@ -159,7 +157,7 @@ ul li:hover {
 }
 
 .whatsapp {
-    background-image: url("./WhatsAppLogo.png");
+    background-image: url("/WhatsAppLogo.png");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
@@ -173,7 +171,7 @@ ul li:hover {
 }
 
 .instagram {
-    background-image: url("./InstagramLogo.png");
+    background-image: url("/InstagramLogo.png");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
@@ -187,7 +185,7 @@ ul li:hover {
 }
 
 .telefon {
-    background-image: url("./telephone.svg");
+    background-image: url("/telephone.svg");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
