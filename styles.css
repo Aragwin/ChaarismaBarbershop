@@ -118,7 +118,7 @@ ul li:hover {
 /* site start */
 
 .img1 {
-    background-image: url("/placeholder.jpg");
+    background-image: url("./placeholder.jpg");
     margin-top: 3rem;
     margin-left: auto;
     margin-right: auto;
@@ -157,7 +157,7 @@ ul li:hover {
 }
 
 .whatsapp {
-    background-image: url("/WhatsAppLogo.png");
+    background-image: url("./WhatsAppLogo.png");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
@@ -171,7 +171,7 @@ ul li:hover {
 }
 
 .instagram {
-    background-image: url("/InstagramLogo.png");
+    background-image: url("./InstagramLogo.png");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
@@ -185,7 +185,7 @@ ul li:hover {
 }
 
 .telefon {
-    background-image: url("/telephone.svg");
+    background-image: url("./telephone.svg");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
