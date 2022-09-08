@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282828;
+    color: white;
+    font-family: sans-serif;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    background-color: #1d1f1d;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: aquamarine;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul a {
+    color: white;
+}
+
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#h-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+#h-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+    opacity: 0;
+}
+
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -7px);
+    transform: rotate(45deg) translate(-6px, -7px);
+}
+
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    header nav {
+        display: none;
+    }
+    
+    #h-icon {
+        display: block;
+    }
+}
+
+/* Nav Ende */
+
+/* site start */
+
+.img1 {
+    background-image: url("/placeholder.jpg");
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(10rem + 40vw);
+    height: calc(5rem + 20vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.titleText {
+    font-family: sans-serif;
+    font-size: calc(1.5rem + 1vw);
+    text-shadow: 0.075rem 0.075rem 0.1875rem black;
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+.text1 {
+    font-family: sans-serif;
+    font-size: calc(1rem + 1vw);
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+    margin-left: calc(3rem + 1vw);
+    margin-right: calc(3rem + 1vw);
+}
+
+.listStyle {
+    margin-top: 3rem;
+}
+
+.whatsapp {
+    background-image: url("/WhatsAppLogo.png");
+    width: calc(2rem + 1vw);
+    height: calc(2rem + 1vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.whatsappListStyle {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.instagram {
+    background-image: url("/InstagramLogo.png");
+    width: calc(2rem + 1vw);
+    height: calc(2rem + 1vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.instagramListStyle {
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+.telefon {
+    background-image: url("/telephone.svg");
+    width: calc(2rem + 1vw);
+    height: calc(2rem + 1vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.telefonListStyle {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
