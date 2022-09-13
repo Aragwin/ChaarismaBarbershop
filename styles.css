@@ -4,9 +4,61 @@
     box-sizing: border-box;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #282828;
+        color: white;
+    }
+    
+    header {
+        background-color: #1d1f1d;
+        box-shadow: 0 0.5rem 2rem rgba(2, 2, 2, 0.137);
+
+    }
+    
+    .navLogo {
+        background-image: url("./Logo light.png");
+    }
+    
+    #h-icon div {
+        background-color: white;
+    }
+
+    .telefon {
+        background-image: url("./telephone light.png");
+    }
+    
+    .text1 {
+        text-shadow: 0.075rem 0.075rem 0.1875rem black;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body{
+        background-color: white;
+        color: black;
+    }
+    
+    header {
+        background-color: white;
+        box-shadow: 0 0.5rem 2rem rgba(2, 2, 2, 0.137);
+
+    }
+
+    .navLogo {
+        background-image: url("./Logo dark.png");
+    }
+
+    #h-icon div {
+        background-color: black;
+    }
+    
+    .telefon {
+        background-image: url("./telephone.svg");
+    }
+}
+
 body {
-    background-color: #282828;
-    color: white;
     font-family: sans-serif;
 }
 
@@ -16,10 +68,17 @@ header a {
 
 header {
     padding: 0 20px;
-    background-color: #1d1f1d;
     height: 50px;
     display: flex;
     justify-content: space-between;
+}
+
+.navLogo {
+    width: calc(6.8rem + 3.4vw);
+    height: calc(2rem + 1vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #brand {
@@ -27,10 +86,6 @@ header {
     font-size: 18px;
     display: flex;
     align-items: center;
-}
-
-#brand a {
-    color: aquamarine;
 }
 
 ul {
@@ -66,7 +121,6 @@ ul li:hover {
 #h-icon div {
     width: 35px;
     height: 3px;
-    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }
@@ -120,27 +174,15 @@ ul li:hover {
 /* site start */
 
 .img1 {
-    background-image: url("./Logo.png");
+    background-image: url("./indore.jpeg");
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: calc(15rem + 20vw);
-    height: calc(15rem + 20vw);
+    width: calc(15rem + 30vw);
+    height: calc(10rem + 20vw);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.titleText {
-    font-family: sans-serif;
-    font-size: calc(1.5rem + 1vw);
-    text-shadow: 0.075rem 0.075rem 0.1875rem black;
-    position: relative;
-    text-align: center;
-    margin-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    color: white;
 }
 
 .text1 {
@@ -148,7 +190,6 @@ ul li:hover {
     font-size: calc(1rem + 1vw);
     position: relative;
     text-align: center;
-    color: white;
     margin-top: 3rem;
     margin-left: calc(3rem + 1vw);
     margin-right: calc(3rem + 1vw);
@@ -187,7 +228,6 @@ ul li:hover {
 }
 
 .telefon {
-    background-image: url("./telephone.svg");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
