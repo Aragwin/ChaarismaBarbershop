@@ -31,6 +31,30 @@
     .text1 {
         text-shadow: 0.075rem 0.075rem 0.1875rem black;
     }
+    
+    .mobile-menu {
+        background-color: #282828;
+    }
+
+    ul a {
+        color: white;
+        text-shadow: 0.075rem 0.075rem 0.1875rem #000000;
+
+    }
+    
+    .footerStyle {
+        color: white;
+    }
+    
+    footer {
+        background-color: #323232;
+    }
+    
+    /* Contact Start */
+
+    .contactTelStyle {
+        color: white;
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -55,6 +79,29 @@
     
     .telefon {
         background-image: url("./telephone.svg");
+    }
+
+    .mobile-menu {
+        background-color: #ffffff;
+    }
+
+    ul a {
+        color: #000000;
+        text-shadow: 0.075rem 0.075rem 0.1875rem #ffffff;
+
+    }
+
+    .footerStyle {
+        color: #000000;
+    }
+    
+    footer {
+        background-color: white;
+    }
+    /* Contact Start */
+
+    .contactTelStyle {
+        color: black;
     }
 }
 
@@ -94,12 +141,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-ul a {
-    color: white;
-    text-shadow: 0.075rem 0.075rem 0.1875rem #000000;
-
 }
 
 ul li {
@@ -151,7 +192,7 @@ ul li:hover {
     position: absolute;
     top: 50px;
     left: 0;
-    height: calc(100vh - 50px);
+    height: calc(30vh - 50px);
     width: 100%;
 }
 
@@ -167,6 +208,12 @@ ul li:hover {
     #h-icon {
         display: block;
     }
+    
+    .img1 {
+        width: calc(15rem + 30vw);
+        height: calc(10rem + 20vw);
+    }
+    
 }
 
 /* Nav Ende */
@@ -178,8 +225,8 @@ ul li:hover {
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: calc(15rem + 30vw);
-    height: calc(10rem + 20vw);
+    width: calc(12rem + 18vw);
+    height: calc(6rem + 13vw);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -188,6 +235,16 @@ ul li:hover {
 .text1 {
     font-family: sans-serif;
     font-size: calc(1rem + 1vw);
+    position: relative;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: calc(3rem + 1vw);
+    margin-right: calc(3rem + 1vw);
+}
+
+.dateStyle {
+    font-family: sans-serif;
+    font-size: calc(0.8rem + 0.8vw);
     position: relative;
     text-align: center;
     margin-top: 3rem;
@@ -238,4 +295,40 @@ ul li:hover {
 .telefonListStyle {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+/* Footer */
+
+.footerStyle {
+    margin-top: calc(5rem + 1vw);
+    font-size: calc(0.9rem - 0.12vw);
+;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+footer p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact Style */
+
+.contactHeadingStyle {
+    font-size: calc(2rem - 0.25vw);
+    margin-top: calc(5rem + 1vw);
+    margin-left: calc(1rem + 5vw);
+}
+
+.contactTextStyle {
+    font-size: calc(1rem - 0.125vw);
+    margin-top: calc(5rem + 1vw);
+    margin-left: calc(1rem + 5vw);
+    margin-right: calc(2rem + 5vw);
 }
