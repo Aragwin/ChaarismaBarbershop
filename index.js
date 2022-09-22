@@ -11,8 +11,8 @@ var weekday = ['Sonntag', 'Montag', 'Dienstag',
 ];
 
 // Array of closing time
-var closingtime = ['Heute Geschlossen', '19:00', '19:00',
-    '19:00', '19:00', '19:00', '18:00']
+var closingtime = ['geschlossen', 'bis 19:00 geöffnet', 'bis 19:00 geöffnet',
+    'bis 19:00 geöffnet', 'bis 19:00 geöffnet', 'bis 19:00 geöffnet', 'bis 18:00 geöffnet']
 document.getElementById("weekday[myDay]").innerHTML = weekday[myDay];
 document.getElementById("closingtime[myDay]").innerHTML = closingtime[myDay];
 
