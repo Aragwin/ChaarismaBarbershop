@@ -214,6 +214,7 @@ ul li:hover {
         height: calc(10rem + 20vw);
     }
     
+    
 }
 
 /* Nav Ende */
@@ -316,6 +317,95 @@ footer {
 footer p {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+/* Slidershow */
+
+.slideimg1 {
+    background-image: url("./Sliderimg1.jpg");
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(12rem + 18vw);
+    height: calc(12rem + 18vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slideimg2 {
+    background-image: url("./Sliderimg2.jpg");
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(12rem + 18vw);
+    height: calc(12rem + 18vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slideimg3 {
+    background-image: url("./Sliderimg3.jpg");
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(12rem + 18vw);
+    height: calc(12rem + 18vw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* Google Maps */
+
+.gmaps {
+    width: calc(10rem + 36vw);
+    height: calc(30rem + 1vw);
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.center {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: calc(10rem + 36vw);
 }
 
 /* Contact Style */
