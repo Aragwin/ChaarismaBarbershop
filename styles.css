@@ -110,8 +110,8 @@ body {
 }
 
 header a {
-    text-decoration: none;
-}
+    display: flex;
+    align-items: center;}
 
 header {
     padding: 0 20px;
@@ -311,12 +311,11 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-
 }
 
 footer p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* Slidershow */
