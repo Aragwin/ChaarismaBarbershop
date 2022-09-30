@@ -17,7 +17,7 @@
     }
     
     .navLogo {
-        background-image: url("./Logo light.png");
+        background-image: url("./Logo light.svg");
     }
     
     #h-icon div {
@@ -25,7 +25,7 @@
     }
 
     .telefon {
-        background-image: url("./telephone light.png");
+        background-image: url("./telephone light.svg");
     }
     
     .text1 {
@@ -50,6 +50,16 @@
         background-color: #323232;
     }
     
+    /* Slider */
+
+    .numbertext {
+        color: #f2f2f2;
+    }
+
+    .prev, .next {
+        color: white;
+    }
+
     /* Contact Start */
 
     .contactTelStyle {
@@ -70,7 +80,7 @@
     }
 
     .navLogo {
-        background-image: url("./Logo dark.png");
+        background-image: url("./Logo dark.svg");
     }
 
     #h-icon div {
@@ -98,6 +108,17 @@
     footer {
         background-color: white;
     }
+
+    /* Slider */
+
+    .numbertext {
+        color: black;
+    }
+
+    .prev, .next {
+        color: black;
+    }
+    
     /* Contact Start */
 
     .contactTelStyle {
@@ -222,7 +243,7 @@ ul li:hover {
 /* site start */
 
 .img1 {
-    background-image: url("./indore.jpeg");
+    background-image: url("./indore.svg");
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -258,7 +279,7 @@ ul li:hover {
 }
 
 .whatsapp {
-    background-image: url("./WhatsAppLogo.png");
+    background-image: url("./WhatsAppLogo.svg");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
@@ -272,7 +293,7 @@ ul li:hover {
 }
 
 .instagram {
-    background-image: url("./InstagramLogo.png");
+    background-image: url("./InstagramLogo.svg");
     width: calc(2rem + 1vw);
     height: calc(2rem + 1vw);
     background-repeat: no-repeat;
@@ -368,9 +389,29 @@ footer p {
     display: none;
 }
 
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
 /* Number text (1/3 etc) */
 .numbertext {
-    color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
