@@ -1,5 +1,382 @@
-#EXTM3U #EXTINF:1
-#EXTINF:0 logo=https://www.google.com/search?q=ei+maxx+logo+png&client=ms-android-samsung&prmd=insv&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiH1KfG5azZAhUCZN8KHb9LCDcQ_AUIESgB&biw=360&bih=560# ,Ei Maxx
-http://163.172.41.91:8081/loadbalance/max1/chunks.m3u8?nimblesessionid=78653276&wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNy8yMDE4IDEwOjU1OjMwIEFNJmhhc2hfdmFsdWU9OE5OM09lUGJiWjVqd1BzY0lTenZLQT09JnZhbGlkbWludXRlcz0yMA==
-#EXTINF:0 logo=https://www.google.com/imgres?imgurl=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2013%2F12%2Fsbt-logo-1.png&imgrefurl=https%3A%2F%2Flogodownload.org%2Fsbt-logo%2F&docid=oU6trFziYEIxQM&tbnid=-ws0HNvCB70SaM%3A&vet=10ahUKEwjk4tLx56zZAhWCON8KHZavC9cQMwhKKAAwAA..i&w=3500&h=3500&client=ms-android-samsung&bih=560&biw=360&q=SBT%20%20logo%20png&ved=0ahUKEwjk4tLx56zZAhWCON8KHZavC9cQMwhKKAAwAA&iact=mrc&uact=8 ,SBT
-rtmp://srv6.zoeweb.tv/z343-live/stream
+news 7
+http://46.47.66.215:9981/stream/channelid/1
+tv 7
+http://46.47.66.215:9981/stream/channelid/2
+nova tv
+http://46.47.66.215:9981/stream/channelid/3
+btv
+http://46.47.66.215:9981/stream/channelid/4
+bnt1
+http://46.47.66.215:9981/stream/channelid/5
+bnt2
+http://46.47.66.215:9981/stream/channelid/6
+F+
+http://46.47.66.215:9981/stream/channelid/12
+RING
+http://46.47.66.215:9981/stream/channelid/14
+BTV LADY
+http://46.47.66.215:9981/stream/channelid/11
+ 
+#EXTINF:-1,ARD
+http://213.163.74.10/live/ard/playlist.m3u8
+#EXTINF:-1,ZDF
+http://213.163.74.10/live/zdf/playlist.m3u8
+#EXTINF:-1,SAT 1
+http://213.163.74.10/live/sat1/playlist.m3u8
+#EXTINF:-1,RTL
+http://213.163.74.10/live/rtl/playlist.m3u8
+#EXTINF:-1,RTL2
+http://213.163.74.10/live/rtl2/playlist.m3u8
+#EXTINF:-1,PRO 7
+http://213.163.74.10/live/pro7/playlist.m3u8
+#EXTINF:-1,VOX
+http://213.163.74.10/live/vox/playlist.m3u8
+#EXTINF:-1,KABEL 1
+http://213.163.74.10/live/kabel1/playlist.m3u8
+#EXTINF:-1,3SAT
+http://213.163.74.10/live/3sat/playlist.m3u8
+#EXTINF:-1,KIKA
+http://213.163.74.10/live/kika/playlist.m3u8
+#EXTINF:-1,RTL NITRO
+http://213.163.74.10/live/rtlnitro/playlist.m3u8
+#EXTINF:-1,EUROSPORT
+http://213.163.74.10/live/eurosport/playlist.m3u8
+#EXTINF:-1,SUPER RTL
+http://213.163.74.10/live/superrtl/playlist.m3u8
+#EXTINF:-1,DISNEY CHANNEL
+http://213.163.74.10/live/disneychannel/playlist.m3u8
+#EXTINF:-1,VIVA
+http://213.163.74.10/live/viva/playlist.m3u8
+#EXTINF:-1,DMAX
+http://213.163.74.10/live/dmax/playlist.m3u8
+#EXTINF:-1,SIXX
+http://213.163.74.10/live/sixx/playlist.m3u8
+#EXTINF:-1,NICKELODEON
+http://213.163.74.10/live/nickcc/playlist.m3u8
+#EXTINF:-1,ORF1
+http://213.163.74.10/live/orf1/playlist.m3u8
+#EXTINF:-1,SF1
+http://213.163.74.10/live/sf1/playlist.m3u8
+#EXTINF:-1,SF2
+http://213.163.74.10/live/sf2/playlist.m3u8
+#EXTINF:-1,TELE 5
+http://213.163.74.10/live/tele5/playlist.m3u8
+#EXTINF:-1,ATV
+http://213.163.74.10/live/atv/playlist.m3u8
+#EXTINF:-1,ZDF NEO
+http://213.163.74.10/live/zdfneo/playlist.m3u8
+ 
+Sky Sport 2 Germany:
+http://92.50.117.250:3000/S19.2E-133-4-222.ts
+sky sport1
+http://46.251.49.113:7777/udp/239.195.0.11:1234
+sky sports
+http://46.251.49.113:7777/udp/239.195.0.12:1234
+sky sport3
+http://46.251.49.113:7777/udp/239.195.0.13:1234
+sky sport4
+http://46.251.49.113:7777/udp/239.195.0.23:1234
+sky sport f1
+http://46.251.49.113:7777/udp/239.195.0.14:1234
+sky sport news
+http://46.251.49.113:7777/udp/239.195.0.25:1234
+ 
+#EXTINF:-1,Nova Sport HD
+http://62.176.99.49:5555/udp/225.100.100.53:30000
+#EXTINF:-1,ORT 1 Russia
+http://62.176.99.49:5555/udp/225.100.100.2:30000
+#EXTINF:-1,Science, TV
+http://62.176.99.49:5555/udp/225.100.100.15:30000
+#EXTINF:-1,BG TV
+http://62.176.99.49:5555/udp/225.100.100.42:30000
+#EXTINF:-1,CBS Drama
+http://62.176.99.49:5555/udp/225.100.100.44:30000
+#EXTINF:-1,Hobby TV
+http://62.176.99.49:5555/udp/225.100.100.50:30000
+#EXTINF:-1,Diva Universal
+http://62.176.99.49:5555/udp/225.100.100.58:30000
+#EXTINF:-1,Discovery World
+http://62.176.99.49:5555/udp/225.100.100.60:30000
+#EXTINF:-1,OKO
+http://62.176.99.49:5555/udp/225.100.100.66:30000
+#EXTINF:-1,BNP TV
+http://62.176.99.49:5555/udp/225.100.100.67:30000
+#EXTINF:-1,Travel HD
+http://62.176.99.49:5555/udp/225.100.100.75:30000
+#EXTINF:-1,AXN
+http://62.176.99.49:5555/udp/225.100.100.78:30000
+#EXTINF:-1,Crime & Investigation
+http://62.176.99.49:5555/udp/225.100.100.83:30000
+#EXTINF:-1,RTR Planeta
+http://62.176.99.49:5555/udp/225.100.100.89:30000
+#EXTINF:-1,RT
+http://62.176.99.49:5555/udp/225.100.100.90:30000
+#EXTINF:-1,TV ESP
+http://62.176.99.49:5555/udp/225.100.100.91:30000
+#EXTINF:-1,buy DM
+http://62.176.99.49:5555/udp/225.100.100.99:30000
+#EXTINF:-1,Outdor
+http://62.176.99.49:5555/udp/225.100.100.103:30000
+#EXTINF:-1,Nickoledeo the
+http://62.176.99.49:5555/udp/225.100.100.120:30000
+#EXTINF:-1,Pink Plus
+http://62.176.99.49:5555/udp/225.100.100.123:30000
+#EXTINF:-1,MTV Rocks
+http://62.176.99.49:5555/udp/225.100.100.124:30000
+#EXTINF:-1,Eurosport 2 HD
+http://62.176.99.49:5555/udp/225.100.100.127:30000
+#EXTINF:-1,Planeta HD
+http://62.176.99.49:5555/udp/225.100.100.129:30000
+#EXTINF:-1,History Channel
+http://62.176.99.49:5555/udp/225.100.100.199:30000
+#EXTINF:-1,MusicBox
+http://62.176.99.49:5555/udp/225.100.100.215:30000
+#EXTINF:-1,Nick jr.
+http://62.176.99.49:5555/udp/225.100.100.217:30000
+#EXTINF:-1,Disney jr.
+http://62.176.99.49:5555/udp/225.100.100.218:30000
+#EXTINF:-1,MTV HD
+http://62.176.99.49:5555/udp/225.100.100.225:30000
+#EXTINF:-1,Da Vinci Learning
+http://62.176.99.49:5555/udp/225.100.100.226:30000
+#EXTINF:-1,supertennis HD
+http://62.176.99.49:5555/udp/225.100.100.230:30000
+#EXTINF:-1,Sky News
+http://62.176.99.49:5555/udp/225.100.100.232:30000
+#EXTINF:-1,Boomerang
+http://62.176.99.49:5555/udp/225.100.100.236:30000
+#EXTINF:-1,Food Network
+http://62.176.99.49:5555/udp/225.100.100.241:30000
+#EXTINF:-1,Discovery HD Showcase
+http://62.176.99.49:5050/udp/239.255.0.102:5500
+#EXTINF:-1,Eurosport HD
+http://62.176.99.49:5050/udp/239.255.0.103:5500
+#EXTINF:-1,Super 7
+http://62.176.99.49:5050/udp/239.255.0.13:5500
+#EXTINF:-1,History Channel
+http://62.176.99.49:5050/udp/239.255.0.130:5500
+#EXTINF:-1,Nova
+http://62.176.99.49:5050/udp/239.255.0.17:5500
+#EXTINF:-1,Euro TV
+http://62.176.99.49:5050/udp/239.255.0.18:5500
+#EXTINF:-1,Viasat Nature
+http://62.176.99.49:5050/udp/239.255.0.180:5500
+#EXTINF:-1,Vh1 Classic
+http://62.176.99.49:5050/udp/239.255.0.182:5500
+#EXTINF:-1,24 Techno
+http://62.176.99.49:5050/udp/239.255.0.195:5500
+#EXTINF:-1,Eurosport 2
+http://62.176.99.49:5050/udp/239.255.0.2:5500
+#EXTINF:-1,Travel TV
+http://62.176.99.49:5050/udp/239.255.0.200:5500
+#EXTINF:-1,POTV
+http://62.176.99.49:5050/udp/239.255.0.202:5500
+#EXTINF:-1,Nat Geo Wild HD
+http://62.176.99.49:5050/udp/239.255.0.213:5500
+#EXTINF:-1,bTV HD
+http://62.176.99.49:5050/udp/239.255.0.220:5500
+#EXTINF:-1,bTV Action HD
+http://62.176.99.49:5050/udp/239.255.0.221:5500
+#EXTINF:-1,Ring BG HD
+http://62.176.99.49:5050/udp/239.255.0.222:5500
+#EXTINF:-1,History Channel HD
+http://62.176.99.49:5050/udp/239.255.0.223:5500
+#EXTINF:-1,Viasat History HD
+http://62.176.99.49:5050/udp/239.255.0.224:5500
+#EXTINF:-1,Box HD
+http://62.176.99.49:5050/udp/239.255.0.226:5500
+#EXTINF:-1,Fashion One HD
+http://62.176.99.49:5050/udp/239.255.0.230:5500
+#EXTINF:-1,iConcerts HD
+http://62.176.99.49:5050/udp/239.255.0.240:5500
+#EXTINF:-1,Fen Folk
+http://62.176.99.49:5050/udp/239.255.0.245:5500
+#EXTINF:-1,Balkanika HD
+http://62.176.99.49:5050/udp/239.255.0.246:5500
+#EXTINF:-1,BG Music Channel
+http://62.176.99.49:5050/udp/239.255.0.247:5500
+#EXTINF:-1,Fine Living
+http://62.176.99.49:5050/udp/239.255.0.248:5500
+#EXTINF:-1,Planeta
+http://62.176.99.49:5050/udp/239.255.0.28:5500
+#EXTINF:-1,City TV
+http://62.176.99.49:5050/udp/239.255.0.30:5500
+#EXTINF:-1,Fiesta
+http://62.176.99.49:5050/udp/239.255.0.32:5500
+#EXTINF:-1,Diema
+http://62.176.99.49:5050/udp/239.255.0.33:5500
+#EXTINF:-1,Diema Family
+http://62.176.99.49:5050/udp/239.255.0.35:5500
+#EXTINF:-1,Nova Sport
+http://62.176.99.49:5050/udp/239.255.0.36:5500
+#EXTINF:-1,AXN
+http://62.176.99.49:5050/udp/239.255.0.38:5500
+#EXTINF:-1,TLC
+http://62.176.99.49:5050/udp/239.255.0.39:5500
+#EXTINF:-1,MTV
+http://62.176.99.49:5050/udp/239.255.0.4:5500
+#EXTINF:-1,Boomerang
+http://62.176.99.49:5050/udp/239.255.0.47:5500
+#EXTINF:-1,Viasat Explorer
+http://62.176.99.49:5050/udp/239.255.0.48:5500
+#EXTINF:-1,Viasat History
+http://62.176.99.49:5050/udp/239.255.0.49:5500
+#EXTINF:-1,Vh1
+http://62.176.99.49:5050/udp/239.255.0.5:5500
+#EXTINF:-1,bTV Action
+http://62.176.99.49:5050/udp/239.255.0.52:5500
+#EXTINF:-1,Animal Planet
+http://62.176.99.49:5050/udp/239.255.0.53:5500
+#EXTINF:-1,Discovery Science
+http://62.176.99.49:5050/udp/239.255.0.54:5500
+#EXTINF:-1,CN
+http://62.176.99.49:5050/udp/239.255.0.55:5500
+#EXTINF:-1,TV 7
+http://62.176.99.49:5050/udp/239.255.0.56:5500
+#EXTINF:-1,The Voice
+http://62.176.99.49:5050/udp/239.255.0.59:5500
+#EXTINF:-1,EBF
+http://62.176.99.49:5050/udp/239.255.0.60:5500
+#EXTINF:-1,Discovery Channel
+http://62.176.99.49:5050/udp/239.255.0.61:5500
+#EXTINF:-1,AXN White
+http://62.176.99.49:5050/udp/239.255.0.66:5500
+#EXTINF:-1,AXN Black
+http://62.176.99.49:5050/udp/239.255.0.67:5500
+#EXTINF:-1,Baby TV
+http://62.176.99.49:5050/udp/239.255.0.68:5500
+#EXTINF:-1,TV1000
+http://62.176.99.49:5050/udp/239.255.0.69:5500
+#EXTINF:-1,Euronews
+http://62.176.99.49:5050/udp/239.255.0.7:5500
+#EXTINF:-1,VTV
+http://62.176.99.49:5050/udp/239.255.0.74:5500
+#EXTINF:-1,Kiss TV
+http://62.176.99.49:5050/udp/239.255.0.79:5500
+#EXTINF:-1,Disney Channel
+http://62.176.99.49:5050/udp/239.255.0.80:5500
+#EXTINF:-1,TV1
+http://62.176.99.49:5050/udp/239.255.0.89:5500
+#EXTINF:-1,MTV Rocks
+http://62.176.99.49:5050/udp/239.255.0.92:5500
+#EXTINF:-1,Nova TV
+http://62.176.99.49:5555/udp/225.100.110.1:30000
+#EXTINF:-1,Diame
+http://62.176.99.49:5555/udp/225.100.110.2:30000
+#EXTINF:-1,Kino Nova
+http://62.176.99.49:5555/udp/225.100.110.3:30000
+#EXTINF:-1,Diame Family
+http://62.176.99.49:5555/udp/225.100.110.4:30000
+ 
+#EXTINF:-1,TV Evropa
+http://62.176.99.49:5555/udp/225.100.110.9:30000
+#EXTINF:-1,Nova Sport
+http://62.176.99.49:5555/udp/225.100.110.13:30000
+#EXTINF:-1,Viasat History
+http://62.176.99.49:5555/udp/225.100.110.14:30000
+#EXTINF:-1,bTV Action SD
+http://62.176.99.49:5555/udp/225.100.110.15:30000
+#EXTINF:-1,TV7
+http://62.176.99.49:5555/udp/225.100.110.16:30000
+#EXTINF:-1,Disney Channel
+http://62.176.99.49:5555/udp/225.100.110.18:30000
+#EXTINF:-1,NAT GEO HD
+http://62.176.99.49:5555/udp/225.100.110.22:30000
+#EXTINF:-1,bTV HD
+http://62.176.99.49:5555/udp/225.100.110.23:30000
+#EXTINF:-1,bTV Action HD
+http://62.176.99.49:5555/udp/225.100.110.24:30000
+#EXTINF:-1,Ring Bg HD
+http://62.176.99.49:5555/udp/225.100.110.25:30000
+#EXTINF:-1,Balkanika
+http://62.176.99.49:5555/udp/225.100.110.26:30000
+#EXTINF:-1,Fine Living
+http://62.176.99.49:5555/udp/225.100.110.28:30000
+#EXTINF:-1,BG Music Channel
+http://62.176.99.49:5555/udp/225.100.110.27:30000
+#EXTINF:-1,Viasat Nature
+http://62.176.99.49:5555/udp/225.100.110.29:30000
+#EXTINF:-1,TV 1000
+http://62.176.99.49:5555/udp/225.100.110.30:30000
+#EXTINF:-1,Discovery Bulgaria
+http://62.176.99.49:5555/udp/225.100.110.31:30000
+#EXTINF:-1,Potvin
+http://62.176.99.49:5555/udp/225.100.110.34:30000
+#EXTINF:-1,Viasat Explorer
+http://62.176.99.49:5555/udp/225.100.110.35:30000
+#EXTINF:-1,TLC Balkans
+http://62.176.99.49:5555/udp/225.100.110.36:30000
+#EXTINF:-1,Fiesta TV
+http://62.176.99.49:5555/udp/225.100.110.37:30000
+#EXTINF:-1,ESP2 Bulgarian
+http://62.176.99.49:5555/udp/225.100.110.38:30000
+#EXTINF:-1,ESP Bulgarian
+http://62.176.99.49:5555/udp/225.100.110.39:30000
+#EXTINF:-1,News 7
+http://62.176.99.49:5555/udp/225.100.110.41:30000
+#EXTINF:-1,HBO, HP
+http://62.176.99.49:5555/udp/225.100.100.37:30000
+#EXTINF:-1,Nova TV
+http://62.176.99.49:5555/udp/225.100.100.9:30000
+ 
+#EXTINF:-1,BEIN SPORT 1 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.210:1935/flash playpath=18412 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 2 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.194:1935/flash playpath=18413 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 3 HD
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.74:1935/flash playpath=18414 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 4 HD
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.234:1935/flash playpath=18415 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 5 HD
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.34:1935/flash playpath=18416 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 6 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.82:1935/flash playpath=18417 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 7 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.234:1935/flash playpath=18418 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 8 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.162:1935/flash playpath=18419 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 9 HD
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.234:1935/flash playpath=18420 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN sPORT 10 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.146:1935/flash playpath=18421 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 11 HD
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.98:1935/flash playpath=18423 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 12 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.114:1935/flash playpath=18424 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 13 HD
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.186:1935/flash playpath=18425 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 14 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.234:1935/flash playpath=18426 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+#EXTINF:-1,BEIN SPORT 15 HD
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.146:1935/flash playpath=18427 swfUrl=http://static2.sawlive.tv/player.swf pageUrl=http://sawlive.tv/
+ 
+#EXTINF:-1,SPORT:BEIN SPORTS 1
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.194/flash playpath=18412 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/U3OTM2NDA2NTIwYzE1MDQzNmU5YzphY2M1MTk4OTI1ZjY4MThmYmQ5MmU0MWIzMTI3MjBkNA__/YjYxZDJlMzVjNjYxOjljNjE2NzYyNjU2OTZlMzE6ZmJlMjJjZTMxNTQzNWM2Mzg5Yj
+#EXTINF:-1,SPORT:BEIN SPORTS 2
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.82/flash playpath=18413 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/Y2YTE2ZjlkZDE3NTczMGM4OTMwZTo3MTljOGYwNjQ2NTI1ZDhmZDM5ZWRmYWU0MmQzNzM0NQ__/MWI0MDBjMTk5MzgzOmEwNjE2NzYyNjU2OTZlMzI6MDdhMGNkODQ5MGZiYmYwMDQ0ZT
+#EXTINF:-1,SPORT:BEIN SPORTS 3
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.114/flash playpath=18414 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/M5NzY1ZTc0MWZhODIyM2Y3MDNjNzowNDhjNmY2ZGVmZjMwM2Y3ZmNjNTM3YTI2YTg2MTg0OQ__/ZDlmMDY1YTMwZWRmOmQyNjE2NzYyNjU2OTZlMzM6MDBjNTk3ZWY1NTc4MjdmZjBlNj
+#EXTINF:-1,SPORT:BEIN SPORTS 4
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.114/flash playpath=18415 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/FiOWI0NTVkZDUxZDg5MzEyNDkzYjplNTUwMTVkMGU2MDU4ZTBkYWU3YmEzNTRmNzkwZjgzZg__/ODRjOTc1Y2QwOWI5OmE1NjE2NzYyNjU2OTZlMzQ6Y2NhYTkyYWYzNTE3NDJiZDA2MG
+#EXTINF:-1,SPORT:BEIN SPORTS 5
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.178/flash playpath=18416 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/ViY2U3NmI4NGY1OTUwMjU0Y2MxMTo0ZTliZGNhZGRhZmU4MmVmNjYxNWU4N2YyMjMwY2ZiZQ__/ZTgwMWRlZjM2YjBiOjlkNjE2NzYyNjU2OTZlMzU6OTZlNzYxNDczMmI4YTk0NTgyMW
+#EXTINF:-1,SPORT:BEIN SPORTS 6
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.234/flash playpath=18417 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/YyYjkzZWEzYmY1ZGViYmEyY2JkZTozMDIxOWU4NWNjNmY4MTc5MTkwY2IwYzUyODZlM2QxOQ__/YzJmYWQwMTQ3NDVjOmE1NjE2NzYyNjU2OTZlMzY6ODZkZjc3ZDQwZDkzN2NlMzIxZT
+#EXTINF:-1,SPORT:BEIN SPORTS 7
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.130/flash playpath=18418 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/AwZDljNjkzZGZmOTMzZjEzNmZiOTozMzljZTU4NmUzYjkwOTdmNzhmMTUxOTg4Njc4ZDIxNg__/YmIwOGFhNjNjOWFhOjlkNjE2NzYyNjU2OTZlMzc6NzQ3NWEzYmUxYjlkZWI1YmVmYT
+#EXTINF:-1,SPORT:BEIN SPORTS 8
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.82/flash playpath=18419 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/hjMzk3ODhhMDM1NGE5NDM0MWUzMjpkMWViNmE5MTdmMTk1N2VjYjg0MDRmODc3MjQ5YzQ1NA__/ZmE3Y2Q4NDc2NGEwOmExNjE2NzYyNjU2OTZlMzg6YjM0Y2JhODM1ZDYzNTgzOThlYz
+#EXTINF:-1,SPORT:BEIN SPORTS 9
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.210/flash playpath=18420 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/ljZTM1YTkwOGIzODBiZGNkNDU3Mzo2MjY4MWVhNjlmYzIyNzJiYzdkMWU5ZWNhODc4MjlmZA__/MjgyZGVlZDMwMzRjOmEyNjE2NzYyNjU2OTZlMzk6ZmI2OWI5ZTY2NmFhYTBjOTUyMj
+#EXTINF:-1,SPORT:BEIN SPORTS 10
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.162/flash playpath=18421 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/dmNmVkYWE2MWM4NDAxZjM2YzM3NGZmOjM0MTAzMmI0NjEwMDljYjhjMDZmZjZhNTMzN2Q4M2Fk/MjFiNjU5NDhjYjViOmNlNjE2NzYyNjU2OTZlMzEzMDo4NTQyM2RlMjlhNWM0MThmMz
+#EXTINF:-1,SPORT:BEIN SPORTS 11
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.194/flash playpath=18423 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/U2OGRmMDVlNzhlMWViMTU4NDdkOGMwOjAzMjQ5Y2VhM2IzNjI4MTg4NDEzNWE3MDRmYjliZmMw/M2M4ZmVmMGZlMTNiOjlmNjE2NzYyNjU2OTZlMzEzMTpiZTQyMzZhMWZhNjUxZTBiMT
+#EXTINF:-1,SPORT:BEIN SPORTS 12
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.98/flash playpath=18424 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/VhOGI3NmYzY2NlMDYyNmZjZWRlNDdhOjZjNDE5NTkxOTQ4ZmVmMTU3YTU0NjJmMDgxZTk4MTI2/YWMxYWZlNjU3MWRiOmE1NjE2NzYyNjU2OTZlMzEzMjoxODc2NmVlZmVhMjMwNTViOG
+#EXTINF:-1,SPORT:BEIN SPORTS 13
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.74/flash playpath=18425 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/E4OTdiZDQ3ODQxMDcyYWE0NzY5M2MzOjEyMjRkZWM2NGU1YWFiNzBlZGE4Zjc3NjQ3NGJmMmU5/MWQ5OTBmN2I0YThiOjlmNjE2NzYyNjU2OTZlMzEzMzoyNzg2MzNjNjIzYmY4YWZlOG
+#EXTINF:-1,SPORT:BEIN SPORTS 14
+rtmp://$OPT:rtmp-raw=rtmp://204.45.157.74/flash playpath=18426 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/A0ZjFiZDIxMGYzYjNiMzc3NzNkYzQyOjNhNjhmYTAwMTZjMzkzYjEzODg4NWI5OGNiOTQ0YjY0/NjhmMWYzZWZjYmQ2OmQyNjE2NzYyNjU2OTZlMzEzNDphY2NlZjVjZTkwM2RhZjIyYz
+#EXTINF:-1,SPORT:BEIN SPORTS 15
+rtmp://$OPT:rtmp-raw=rtmp://50.7.28.130/flash playpath=18427 swfUrl=http://static2.sawlive.tv/player.swf live=1 pageUrl=http://sawlive.tv/embed/watch/QwNjE0MDNmNWMzNTQ3NDY4ZGYzNTljOjcyYWE2YjRiZGJjMDFhYWEyNWU4MGU0OGU3Y2ZjNjRm/MGE2NmM
